@@ -43,6 +43,7 @@ public class CacheConfiguration {
             createCache(cm, net.activia.dmb.domain.User.class.getName());
             createCache(cm, net.activia.dmb.domain.Authority.class.getName());
             createCache(cm, net.activia.dmb.domain.User.class.getName() + ".authorities");
+            createCache(cm, net.activia.dmb.domain.Promotion.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
